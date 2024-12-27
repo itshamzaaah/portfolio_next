@@ -129,11 +129,11 @@ export function About() {
   };
 
   return (
-    <section id="about" className="py-20 bg-gray-50">
+    <section id="about" className="py-20  bg-gray-50 px-2">
       <div className="container mx-auto">
         <div className="w-full">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold">About Me</h2>
+            <h2 className="text-3xl font-bold text-black">About Me</h2>
             <p className="text-gray-600 mt-2">My Introduction</p>
           </div>
 
@@ -201,7 +201,7 @@ export function About() {
             </div>
 
             <div className="space-y-6 order-1 md:order-2">
-              <div className="grid grid-cols-3 gap-4">
+              <div className="grid grid-cols-3 gap-4 text-black">
                 {[
                   { Icon: Briefcase, label: "Experience", detail: "1+ Years" },
                   {

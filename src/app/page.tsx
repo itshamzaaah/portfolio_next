@@ -19,15 +19,17 @@ document.documentElement.removeAttribute("dark-theme")
   return (
     <main>
       <Nav />
-      {/* <div className='px-2'> */}
       <Hero />
+      
+
       <About />
+      <div className='px-2'>
       <Skills />
       <Portfolio />
       <Qualification />
       <Contact />
       <Footer />
-      {/* </di>v */}
+      </div>
     </main>
   )
 }

@@ -74,7 +74,7 @@ export function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen pt-16 flex items-center bg-gradient-to-b from-white to-gray-50 relative"
+      className="min-h-screen pt-16 flex items-center bg-gradient-to-b from-white to-gray-50 relative px-2"
     >
       <div className="container mx-auto">
         <div className="w-full">
