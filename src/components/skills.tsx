@@ -43,11 +43,11 @@ export function Skills() {
           transition={{ duration: 0.6, ease: "easeInOut" }}
           viewport={{ once: false }}
         >
-          <h2 className="text-3xl font-bold">Skills</h2>
+          <h2 className="text-3xl font-bold text-black">Skills</h2>
           <p className="text-gray-600 mt-2">My technical level</p>
         </motion.div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-8 text-black">
           {/* Frontend Skills Card */}
           <motion.div
             className="bg-white p-6 rounded-2xl shadow-lg overflow-hidden"
