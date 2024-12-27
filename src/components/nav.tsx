@@ -33,7 +33,7 @@ export function Nav() {
   }, [isOpen])
 
   return (
-    <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-sm z-50 bg-gray-50 px-2">
+    <nav className="fixed top-0 w-full dark:bg-black bg-white/80 backdrop-blur-sm z-50 bg-gray-50 px-2">
       <div className='container mx-auto'>
         <div className="w-full">
           <div className="flex justify-between items-center h-16">
