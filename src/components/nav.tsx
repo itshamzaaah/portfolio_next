@@ -9,7 +9,7 @@ const navItems = [
   { name: 'Home', href: '#home' },
   { name: 'About', href: '#about' },
   { name: 'Skills', href: '#skills' },
-  { name: 'Portfolio', href: '#home' },  // Change this to '/' for home page
+  { name: 'Portfolio', href: '#portfolio' },  // Change this to '/' for home page
   { name: 'Qualification', href: '#qualification' },
   { name: 'Contact', href: '#contact' },
 ]

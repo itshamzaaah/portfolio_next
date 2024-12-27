@@ -132,7 +132,7 @@ export function Portfolio() {
           </div>
 
           {/* Projects Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 mt-6 text-black">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 mt-6 text-black md:px-10">
             {filteredProjects.map((project) => (
               <div
                 key={project.id}
