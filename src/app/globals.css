@@ -18,8 +18,8 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  /* color: var(--foreground);
+  background: var(--background); */
   font-family: 'Barlow Condensed', sans-serif;
 }
 
