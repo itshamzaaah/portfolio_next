@@ -31,7 +31,7 @@ export function Contact() {
   return (
     <section
       id="contact"
-      className="py-20 bg-gray-50 overflow-hidden"
+      className="py-20 bg-gray-50 overflow-hidden px-2"
       style={{ fontFamily: "Barlow Condensed, sans-serif" }}
     >
       <div className="container mx-auto px-4">

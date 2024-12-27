@@ -4,7 +4,7 @@ import 'remixicon/fonts/remixicon.css';
 
 export function Footer() {
   return (
-    <footer className="bg-gray-50 py-8">
+    <footer className="bg-gray-50 py-8 px-2">
 <div className="container mx-auto">
 <div className="w-full">
         <div className="flex flex-col items-center space-y-4 text-center">

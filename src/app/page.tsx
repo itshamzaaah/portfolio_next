@@ -27,11 +27,13 @@ document.documentElement.removeAttribute("dark-theme")
       <Skills />
     
       <Portfolio />
-      <div className='px-2'>
+      
       <Qualification />
+      
       <Contact />
+   
       <Footer />
-      </div>
+ 
     </main>
   )
 }

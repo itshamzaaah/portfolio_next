@@ -62,7 +62,7 @@ export function Qualification() {
   };
 
   return (
-    <section id="qualification"   className="py-20 bg-gray-50 h-[80vh] sm:h-[120vh]">
+    <section id="qualification"   className="py-20 bg-gray-50 h-[80vh] sm:h-[120vh] px-2">
       <div className="container mx-auto">
         <div className="text-center mb-8">
           <h2 className="text-3xl font-bold">Qualification</h2>
