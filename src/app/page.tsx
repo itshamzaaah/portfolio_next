@@ -14,6 +14,7 @@ import { useEffect } from 'react'
 export default function Home() {
 useEffect(()=>{
 document.documentElement.classList.remove("dark")
+document.documentElement.removeAttribute("dark-theme")
 },[])
   return (
     <main>

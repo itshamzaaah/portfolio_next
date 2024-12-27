@@ -80,7 +80,7 @@ export function Hero() {
         <div className="w-full">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="space-y-6 relative z-10">
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font">
+              <h1 className="text-4xl text-black sm:text-5xl lg:text-6xl font">
                 Hamza Maratib
               </h1>
               <p className="text-xl text-gray-600 flex items-center">
