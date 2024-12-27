@@ -39,7 +39,7 @@ export function Nav() {
           <div className="flex justify-between items-center h-16">
             <div className="flex-shrink-0 flex items-center">
               <Link href="#home">
-                <span className="text-xl font-semibold cursor-pointer">Portfolio</span>
+                <span className="text-xl font-semibold cursor-pointer text-black">Portfolio</span>
               </Link>
             </div>
 
