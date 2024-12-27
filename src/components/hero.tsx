@@ -76,10 +76,10 @@ export function Hero() {
       id="home"
       className="min-h-screen pt-16 flex items-center bg-gradient-to-b from-white to-gray-50 relative px-2"
     >
-      <div className="container mx-auto">
+      <div className="container mx-auto md:px-10">
         <div className="w-full">
           <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-8 items-center">
-            <div className="space-y-6 relative z-10 border border-red-600">
+            <div className="space-y-6 relative z-10 ">
               <h1 className="text-4xl text-black sm:text-5xl lg:text-6xl font ">
                 Hamza Maratib
               </h1>
@@ -118,7 +118,7 @@ export function Hero() {
                 </motion.div>
               </motion.button>
             </div>
-            <div className="relative z-10">
+            <div className="relative z-10 md:pr-8">
               <div
                 className="aspect-square relative mx-auto rounded-full shadow-lg"
                 style={{

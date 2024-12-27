@@ -200,7 +200,7 @@ export function About() {
               </div>
             </div>
 
-            <div className="space-y-6 order-1 md:order-2">
+            <div className="space-y-6 order-1 md:order-2 md:px-8">
               <div className="grid grid-cols-3 gap-4 text-black">
                 {[
                   { Icon: Briefcase, label: "Experience", detail: "1+ Years" },

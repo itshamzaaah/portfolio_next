@@ -40,7 +40,7 @@ export function Contact() {
           <p className="text-gray-600 mt-2">Get in touch</p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12">
+        <div className="grid md:grid-cols-2 gap-12 md:px-8">
           {/* Talk to Me Section */}
           <motion.div
             className="space-y-6 flex flex-col items-center md:items-start w-full overflow-hidden"

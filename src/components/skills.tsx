@@ -47,7 +47,7 @@ export function Skills() {
           <p className="text-gray-600 mt-2">My technical level</p>
         </motion.div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-8 text-black">
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-8 text-black md:px-8">
           {/* Frontend Skills Card */}
           <motion.div
             className="bg-white p-6 rounded-2xl shadow-lg overflow-hidden"
