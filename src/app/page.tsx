@@ -25,8 +25,9 @@ document.documentElement.removeAttribute("dark-theme")
       <About />
      
       <Skills />
-      <div className='px-2'>
+    
       <Portfolio />
+      <div className='px-2'>
       <Qualification />
       <Contact />
       <Footer />

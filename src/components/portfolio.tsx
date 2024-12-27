@@ -106,7 +106,7 @@ export function Portfolio() {
         <div className="w-full px-4">
           {/* Header */}
           <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold font-barlow-condensed">
+            <h2 className="text-3xl font-bold font-barlow-condensed text-black">
               Portfolio
             </h2>
             <p className="text-gray-600 mt-2 font-barlow-condensed">
@@ -132,7 +132,7 @@ export function Portfolio() {
           </div>
 
           {/* Projects Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 mt-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 mt-6 text-black">
             {filteredProjects.map((project) => (
               <div
                 key={project.id}
