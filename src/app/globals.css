@@ -20,6 +20,7 @@
 body {
   /* color: var(--foreground);
   background: var(--background); */
+  color: black;
   font-family: 'Barlow Condensed', sans-serif;
 }
 

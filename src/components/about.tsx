@@ -260,9 +260,15 @@ export function About() {
                 <Button
                   variant="outlined"
                   size="large"
-                  className="rounded-full bg-black text-white border-black hover:bg-gray-800"
+                  
                   sx={{
                     fontFamily: "'Barlow Condensed', sans-serif", // Explicitly set font for the button
+                    // class="rounded-full bg-black text-white border-black hover:bg-gray-800"
+                    background:"black",
+                    color:"white",
+                    border:"1px solid black",
+                    borderRadius:"50%",
+                    
                   }}
                   onClick={handleDownloadCV}
                 >
