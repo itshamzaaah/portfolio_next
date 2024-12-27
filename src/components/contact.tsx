@@ -74,7 +74,7 @@ export function Contact() {
                 <Phone className="text-gray-600 flex-shrink-0" />
                 <div>
                   <h4 className="font-medium">Whatsapp</h4>
-                  <p className="text-gray-600 truncate">+92313687703</p>
+                  <p className="text-gray-600 truncate">+92 313 6877063</p>
                   <a
                     href="https://wa.me/+923016639195"
                     className="text-sm text-gray-600 hover:underline"
