@@ -267,7 +267,8 @@ export function About() {
                     background:"black",
                     color:"white",
                     border:"1px solid black",
-                    borderRadius:"50%",
+                    borderRadius:"9999px",
+                    
                     
                   }}
                   onClick={handleDownloadCV}
